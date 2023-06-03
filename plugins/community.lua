@@ -10,7 +10,6 @@ return {
   { import = "astrocommunity.git.git-blame-nvim" },
 
   { import = "astrocommunity.pack.cmake" },
-  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.go" },
 }
