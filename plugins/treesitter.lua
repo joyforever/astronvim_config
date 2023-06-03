@@ -11,6 +11,8 @@ return {
       "go",
       "yaml",
       "ini",
+      "markdown",
+      "sql",
     })
   end,
 }
