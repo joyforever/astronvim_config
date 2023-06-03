@@ -23,4 +23,10 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open Todos in Telescope" },
     },
   },
+  {
+    "p00f/clangd_extensions.nvim",
+    dependencies = { "williamboman/mason-lspconfig.nvim" },
+    opts = { ensure_installed = { "clangd" } },
+    event = "User AstroFile",
+  },
 }
