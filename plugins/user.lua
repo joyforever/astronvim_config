@@ -9,4 +9,18 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  --
+  {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    --config = function()
+    --  require("todo-comments").setup {}
+    --end,
+    opts = {}, -- 简化写法，等价于上面三行函数
+    event = "User AstroFile",
+    cmd = { "TodoQuickFix" },
+    keys = {
+      { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open Todos in Telescope" },
+    },
+  },
 }
