@@ -10,6 +10,7 @@ return {
   { import = "astrocommunity.git.git-blame-nvim" },
 
   { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.cmake" },
