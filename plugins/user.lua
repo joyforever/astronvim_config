@@ -11,19 +11,6 @@ return {
   -- },
   --
   {
-    "folke/todo-comments.nvim",
-    dependencies = { "nvim-lua/plenary.nvim" },
-    --config = function()
-    --  require("todo-comments").setup {}
-    --end,
-    opts = {}, -- 简化写法，等价于上面三行函数
-    event = "User AstroFile",
-    cmd = { "TodoQuickFix" },
-    keys = {
-      { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open Todos in Telescope" },
-    },
-  },
-  {
     "p00f/clangd_extensions.nvim",
     dependencies = { "williamboman/mason-lspconfig.nvim" },
     opts = { ensure_installed = { "clangd" } },
