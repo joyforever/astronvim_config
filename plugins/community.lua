@@ -9,7 +9,9 @@ return {
 
   { import = "astrocommunity.git.git-blame-nvim" },
 
-  { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
+
   { import = "astrocommunity.diagnostics.trouble-nvim" },
 
   { import = "astrocommunity.pack.json" },
