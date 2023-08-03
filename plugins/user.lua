@@ -11,12 +11,6 @@ return {
   -- },
   --
   {
-    "p00f/clangd_extensions.nvim",
-    dependencies = { "williamboman/mason-lspconfig.nvim" },
-    opts = { ensure_installed = { "clangd" } },
-    event = "User AstroFile",
-  },
-  {
     "rebelot/heirline.nvim",
     opts = function(_, opts)
       local status = require "astronvim.utils.status"
